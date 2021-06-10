@@ -12,21 +12,21 @@ Embedded Machine Learning for Microcontroller using MicroML framework. [MicroML]
 * PCA (Principal Component Analysis)
 
 # Examples
-| ![space-1.jpg](https://github.com/TronixLab/ESP32_Watchdog/blob/main/docx/3.jpg?raw=true) | 
+| ![space-1.jpg](https://github.com/TronixLab/ArduinoMicroML/blob/main/gif/RGB.gif?raw=true) | 
 |:--:| 
 | **Fig. 1** *RGB color classifier* |
 
-| ![space-1.jpg](https://github.com/TronixLab/ESP32_Watchdog/blob/main/docx/3.jpg?raw=true) | 
+| ![space-1.jpg](https://github.com/TronixLab/ArduinoMicroML/blob/main/gif/FlexPunch.gif?raw=true) | 
 |:--:| 
-| **Fig. 1** *IMU classifier* |
+| **Fig. 2** *IMU classifier* |
 
-| ![space-1.jpg](https://github.com/TronixLab/ESP32_Watchdog/blob/main/docx/3.jpg?raw=true) | 
+| ![space-1.jpg](https://github.com/TronixLab/ArduinoMicroML/blob/main/gif/MorseCode.gif?raw=true) | 
 |:--:| 
-| **Fig. 1** *Morse Code classifier* |
+| **Fig. 3** *Morse Code classifier* |
 
-| ![space-1.jpg](https://github.com/TronixLab/ESP32_Watchdog/blob/main/docx/3.jpg?raw=true) | 
+| ![space-1.jpg](https://github.com/TronixLab/ArduinoMicroML/blob/main/gif/KeyWordSpotting.gif?raw=true) | 
 |:--:| 
-| **Fig. 1** *Key word spotting* |
+| **Fig. 4** *Key word spotting* |
 
 ## Video Tuturoial on YouTube
 [![GitHub Logo](https://github.com/TronixLab/MicroML-rgbClassifier/blob/main/notebook/Youtube.jpg)](https://www.youtube.com/watch?v=qeqfoGQs9yo)
