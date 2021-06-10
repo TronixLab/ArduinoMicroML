@@ -44,4 +44,4 @@ print(port(clf))
 | **Fig. 4** *Key word spotting* |
 
 ## Video Tuturoial on YouTube
-[![GitHub Logo](https://github.com/TronixLab/MicroML-rgbClassifier/blob/main/notebook/Youtube.jpg)](https://www.youtube.com/watch?v=qeqfoGQs9yo)
+[![GitHub Logo](https://github.com/TronixLab/ArduinoMicroML/blob/main/gif/ytcover.jpg)](https://www.youtube.com/watch?v=qeqfoGQs9yo)
