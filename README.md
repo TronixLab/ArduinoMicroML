@@ -2,19 +2,34 @@
 Embedded Machine Learning for Microcontroller using MicroML framework. [MicroML](https://openbase.com/python/micromlgen) brings Machine Learning algorithms to microcontrollers, including limited 8-bit Arduino AVR boards, to run a classification model. The original repository can be found [here](https://github.com/eloquentarduino/micromlgen).
 
 **Supported classifiers**
-* Decision Tree
-* Random Forest
-* XGBoost
-* Gaussian Naive Bayes
-* Support Vector Machines (SVC and OneClassSVM)
-* Relevant Vector Machines
-* SEFR (Fast Linear-Time Classifier)
-* PCA (Principal Component Analysis)
+* [Decision Tree](https://eloquentarduino.github.io/2020/10/decision-tree-random-forest-and-xgboost-on-arduino/)
+* [Random Forest](https://eloquentarduino.github.io/2020/10/decision-tree-random-forest-and-xgboost-on-arduino/)
+* [XGBoost](https://eloquentarduino.github.io/2020/10/decision-tree-random-forest-and-xgboost-on-arduino/)
+* [Gaussian Naive Bayes](https://eloquentarduino.github.io/2020/08/eloquentml-grows-its-family-of-classifiers-gaussian-naive-bayes-on-arduino/)
+* [Support Vector Machines (SVC and OneClassSVM)](https://eloquentarduino.github.io/2020/05/anomaly-detection-on-your-arduino-microcontroller-via-one-class-svm/)
+* [Relevant Vector Machines](https://eloquentarduino.github.io/2020/02/even-smaller-machine-learning-models-for-your-mcu/)
+* [SEFR (Fast Linear-Time Classifier)](https://eloquentarduino.github.io/2020/07/sefr-a-fast-linear-time-classifier-for-ultra-low-power-devices/)
+* [PCA (Principal Component Analysis)](https://eloquentarduino.github.io/2020/04/passive-aggressive-classifier-for-embedded-devices/)
 
 ## Install
 ```pip install micromlgen```
 
 ## Usage
+**1. Decision Tree**
+```
+from micromlgen import port
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.datasets import load_iris
+
+clf = DecisionTreeClassifier()
+X, y = load_iris(return_X_y=True)
+clf.fit(X, y)
+print(port(clf))
+```
+**2. Random Forest**
+```
+
+```
 ```
 from micromlgen import port
 from sklearn.svm import SVC
