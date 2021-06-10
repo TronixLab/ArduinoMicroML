@@ -1,5 +1,5 @@
 # ArduinoMicroML
-Embedded Machine Learning for Microcontroller using MicroML framework. [MicroML](https://openbase.com/python/micromlgen) brings Machine Learning algorithms to microcontrollers, including limited 8-bit Arduino AVR boards, to run a classification model.
+Embedded Machine Learning for Microcontroller using MicroML framework. [MicroML](https://openbase.com/python/micromlgen) brings Machine Learning algorithms to microcontrollers, including limited 8-bit Arduino AVR boards, to run a classification model. The original repository can be found [here](https://github.com/eloquentarduino/micromlgen).
 
 **Supported classifiers**
 * Decision Tree
