@@ -14,8 +14,7 @@ Embedded Machine Learning for Microcontroller using MicroML framework. [MicroML]
 ## Install
 ```pip install micromlgen```
 
-## Usage
-**1. Decision Tree**
+## Usage e.g. Decision Tree Classifier
 ```
 from micromlgen import port
 from sklearn.tree import DecisionTreeClassifier
@@ -23,66 +22,6 @@ from sklearn.datasets import load_iris
 
 clf = DecisionTreeClassifier()
 X, y = load_iris(return_X_y=True)
-clf.fit(X, y)
-print(port(clf))
-```
-**2. Random Forest**
-```
-
-```
-```
-from micromlgen import port
-from sklearn.svm import SVC
-from sklearn.datasets import load_iris
-
-
-if __name__ == '__main__':
-    iris = load_iris()
-    X = iris.data
-    y = iris.target
-    clf = SVC(kernel='linear').fit(X, y)
-    print(port(clf))
- ```
- You may pass a classmap to get readable class names in the ported code
- ```
- from micromlgen import port
-from sklearn.svm import SVC
-from sklearn.datasets import load_iris
-
-
-if __name__ == '__main__':
-    iris = load_iris()
-    X = iris.data
-    y = iris.target
-    clf = SVC(kernel='linear').fit(X, y)
-    print(port(clf, classmap={
-        0: 'setosa',
-        1: 'virginica',
-        2: 'versicolor'
-    }))
- ```
- It can export a PCA transformer.
- ```
- from sklearn.decomposition import PCA
-from sklearn.datasets import load_iris
-from micromlgen import port
-
-if __name__ == '__main__':
-    X = load_iris().data
-    pca = PCA(n_components=2, whiten=False).fit(X)
-    
-    print(port(pca))
- ```
-Read the post about SEFR.
-```
-pip install sefr
-```
-```
-from sefr import SEFR
-from micromlgen import port
-
-
-clf = SEFR()
 clf.fit(X, y)
 print(port(clf))
 ```
