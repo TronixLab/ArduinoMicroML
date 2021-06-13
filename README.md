@@ -8,8 +8,8 @@ Embedded Machine Learning for Microcontroller using MicroML framework. [MicroML]
 * [Gaussian Naive Bayes](https://eloquentarduino.github.io/2020/08/eloquentml-grows-its-family-of-classifiers-gaussian-naive-bayes-on-arduino/)
 * [Support Vector Machines (SVC and OneClassSVM)](https://eloquentarduino.github.io/2020/05/anomaly-detection-on-your-arduino-microcontroller-via-one-class-svm/)
 * [Relevant Vector Machines](https://eloquentarduino.github.io/2020/02/even-smaller-machine-learning-models-for-your-mcu/)
-* [SEFR (Fast Linear-Time Classifier)](https://eloquentarduino.github.io/2020/07/sefr-a-fast-linear-time-classifier-for-ultra-low-power-devices/)
-* [PCA (Principal Component Analysis)](https://eloquentarduino.github.io/2020/04/passive-aggressive-classifier-for-embedded-devices/)
+* [SEFR (Scalable, Efficient, and Fast classifier)](https://eloquentarduino.github.io/2020/07/sefr-a-fast-linear-time-classifier-for-ultra-low-power-devices/)
+* [PCA (Probably Approximately Correct)](https://eloquentarduino.github.io/2020/04/passive-aggressive-classifier-for-embedded-devices/)
 
 ## Install
 ```pip install micromlgen```
